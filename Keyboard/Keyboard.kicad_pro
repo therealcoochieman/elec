@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Untitled.kicad_pro",
+    "filename": "Keyboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -576,6 +576,10 @@
     [
       "1225adc7-efa2-44cb-91af-fab8e6e9ac14",
       "Root"
+    ],
+    [
+      "455d18dc-2e92-4d23-8799-938831337c69",
+      "demux 1x6"
     ]
   ],
   "text_variables": {}
