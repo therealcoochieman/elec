@@ -3618,6 +3618,28 @@
 		)
 		(uuid "94e1ba7a-572c-4e10-9812-2dd5ebcebd3c")
 	)
+	(global_label "NOT2_OUT"
+		(shape output)
+		(at 36.83 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09ac324e-70fb-4815-b976-32cd9e7a5564")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.2495 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A1"
 		(shape input)
 		(at 232.41 139.7 0)
@@ -3662,6 +3684,28 @@
 			)
 		)
 	)
+	(global_label "NOT3_IN"
+		(shape input)
+		(at 21.59 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52b3c593-7b85-47d4-a392-71a73b8ed817")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 10.8638 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A0"
 		(shape input)
 		(at 232.41 137.16 0)
@@ -3680,6 +3724,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NOT2_IN"
+		(shape input)
+		(at 21.59 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8070b75c-dfe2-43b8-9734-2812f898b0bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 10.8638 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3772,6 +3838,28 @@
 			)
 		)
 	)
+	(global_label "NOT3_OUT"
+		(shape output)
+		(at 36.83 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9af1b7d-9a00-4b70-9c25-b5cae39b01f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.2495 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DEMUX_OUTPUT"
 		(shape output)
 		(at 283.21 54.61 0)
@@ -3816,6 +3904,28 @@
 			)
 		)
 	)
+	(global_label "NOT1_IN"
+		(shape input)
+		(at 21.59 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df0a0f90-10e3-47b0-8078-867b2d6b8928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 10.8638 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LIN2"
 		(shape input)
 		(at 67.31 44.45 180)
@@ -3834,6 +3944,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NOT1_OUT"
+		(shape output)
+		(at 36.83 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fba1289d-9a59-4e53-9147-b86aad16893d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.2495 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3932,6 +4064,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U3")
 					(unit 3)
 				)
@@ -4036,6 +4174,12 @@
 					(unit 3)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U2")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4098,6 +4242,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -4200,6 +4350,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4262,6 +4418,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -4332,6 +4494,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "R3")
 					(unit 1)
 				)
@@ -4440,6 +4608,12 @@
 					(unit 4)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U7")
+					(unit 4)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4506,6 +4680,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "R5")
 					(unit 1)
 				)
@@ -4608,11 +4788,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 20.32 130.81 0)
+		(at 29.21 99.06 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4621,7 +4807,7 @@
 		(fields_autoplaced yes)
 		(uuid "3518709f-5a28-4eee-941a-2e5480972d40")
 		(property "Reference" "U1"
-			(at 20.32 121.92 0)
+			(at 29.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4815,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 20.32 124.46 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4823,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 20.32 130.81 0)
+			(at 29.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4832,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 20.32 130.81 0)
+			(at 29.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4841,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 20.32 130.81 0)
+			(at 29.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,6 +4894,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U1")
 					(unit 4)
 				)
@@ -4816,6 +5008,12 @@
 					(unit 2)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U7")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4920,6 +5118,12 @@
 					(unit 4)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U6")
+					(unit 4)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5016,6 +5220,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U5")
 					(unit 3)
 				)
@@ -5120,6 +5330,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U6")
 					(unit 2)
 				)
@@ -5230,6 +5446,12 @@
 					(unit 7)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U1")
+					(unit 7)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5324,6 +5546,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U5")
 					(unit 2)
 				)
@@ -5432,6 +5660,12 @@
 					(unit 5)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U7")
+					(unit 5)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5494,6 +5728,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -5564,6 +5804,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "R1")
 					(unit 1)
 				)
@@ -5672,6 +5918,12 @@
 					(unit 3)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U1")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5772,6 +6024,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U1")
 					(unit 2)
 				)
@@ -5880,6 +6138,12 @@
 					(unit 3)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U7")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5980,6 +6244,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U6")
 					(unit 1)
 				)
@@ -6088,6 +6358,12 @@
 					(unit 5)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U6")
+					(unit 5)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6186,6 +6462,12 @@
 					(unit 2)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U2")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6248,6 +6530,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -6350,6 +6638,12 @@
 					(unit 2)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U3")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6412,6 +6706,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6514,6 +6814,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6576,6 +6882,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -6680,11 +6992,17 @@
 					(unit 3)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U4")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 20.32 143.51 0)
+		(at 29.21 110.49 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6693,7 +7011,7 @@
 		(fields_autoplaced yes)
 		(uuid "d01a3e81-f031-4afc-bfb3-fa4c3ed53015")
 		(property "Reference" "U1"
-			(at 20.32 134.62 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +7019,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 20.32 137.16 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +7027,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 20.32 143.51 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +7036,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 20.32 143.51 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +7045,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 20.32 143.51 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,6 +7098,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U1")
 					(unit 5)
 				)
@@ -6850,6 +7174,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6916,6 +7246,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "R6")
 					(unit 1)
 				)
@@ -7024,11 +7360,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 20.32 154.94 0)
+		(at 29.21 121.92 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7037,7 +7379,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd6bd64c-0f22-4761-a227-6fb158f4d4bd")
 		(property "Reference" "U1"
-			(at 20.32 146.05 0)
+			(at 29.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7387,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 20.32 148.59 0)
+			(at 29.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7395,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 20.32 154.94 0)
+			(at 29.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7404,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 20.32 154.94 0)
+			(at 29.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7413,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 20.32 154.94 0)
+			(at 29.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,6 +7466,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U1")
 					(unit 6)
 				)
@@ -7190,6 +7538,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -7298,6 +7652,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7402,6 +7762,12 @@
 					(unit 3)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "U6")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7472,6 +7838,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7538,6 +7910,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "R4")
 					(unit 1)
 				)

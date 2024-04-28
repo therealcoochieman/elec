@@ -627,6 +627,12 @@
 		(uuid "e5b18815-d923-426f-bc1c-aae4afd2f2c4")
 	)
 	(junction
+		(at 176.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edaa56f8-8752-4848-bc6a-719c1eb9cc7d")
+	)
+	(junction
 		(at 58.42 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -661,6 +667,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f71bdcbc-ed71-482c-b494-50d72dbb754f")
+	)
+	(junction
+		(at 81.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f723b8d5-c975-4fc3-9207-084853f92da9")
 	)
 	(junction
 		(at 77.47 106.68)
@@ -796,16 +808,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 77.47 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "176f3e49-3d74-4af9-83e6-bc2a9d3a7d39")
-	)
-	(wire
-		(pts
 			(xy 218.44 153.67) (xy 218.44 180.34)
 		)
 		(stroke
@@ -816,7 +818,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 140.97 134.62)
+			(xy 77.47 60.96) (xy 82.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ae5dbf-adeb-4d16-a254-e823cd05e16a")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -873,6 +885,16 @@
 			(type default)
 		)
 		(uuid "1ef7f230-5a33-4509-933c-3a9a87d502c0")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8c4a31-ae96-48f0-b78c-82c1efaa7f47")
 	)
 	(wire
 		(pts
@@ -943,16 +965,6 @@
 			(type default)
 		)
 		(uuid "2530f680-db6e-4be6-9528-955c10a87963")
-	)
-	(wire
-		(pts
-			(xy 177.8 88.9) (xy 172.72 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0866e0-b9a7-4d13-8580-2b5af28adaaa")
 	)
 	(wire
 		(pts
@@ -1106,6 +1118,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 134.62) (xy 140.97 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe208f4-5f65-4c74-a643-07ad4e66e547")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 140.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4215ce48-4a21-4b44-ba19-d798f6497b36")
+	)
+	(wire
+		(pts
 			(xy 140.97 161.29) (xy 172.72 161.29)
 		)
 		(stroke
@@ -1153,6 +1185,16 @@
 			(type default)
 		)
 		(uuid "43df6f2a-a92e-48b4-9580-b83a00795e00")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4407f09e-4bd1-4913-882e-8a7da1c52bc4")
 	)
 	(wire
 		(pts
@@ -1376,16 +1418,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 140.97 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6271a9d4-97b2-4db4-bdcc-b0f7d4d9d013")
-	)
-	(wire
-		(pts
 			(xy 58.42 97.79) (xy 58.42 125.73)
 		)
 		(stroke
@@ -1473,6 +1505,16 @@
 			(type default)
 		)
 		(uuid "71370d38-8c4b-4651-ac1a-ea6044db181b")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b733bd-cd89-4b36-80bb-7c5e99648db7")
 	)
 	(wire
 		(pts
@@ -1836,13 +1878,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 140.97 106.68)
+			(xy 109.22 106.68) (xy 128.27 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98f804d8-fece-4512-937b-63589b0d171d")
+	)
+	(wire
+		(pts
+			(xy 140.97 88.9) (xy 146.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99148d16-97d8-40d3-943d-117b951991dd")
 	)
 	(wire
 		(pts
@@ -1863,16 +1915,6 @@
 			(type default)
 		)
 		(uuid "9f062286-dc63-483d-99f9-e86e899da977")
-	)
-	(wire
-		(pts
-			(xy 114.3 60.96) (xy 109.22 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6f890a-1f4a-45af-87c0-5fa0db6e2e89")
 	)
 	(wire
 		(pts
@@ -1913,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "a0fe79cc-8705-45db-8c7a-0335eeecdbbe")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ffb3d1-cb55-4b35-b0d9-561a7251fa11")
 	)
 	(wire
 		(pts
@@ -1976,23 +2028,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 60.96) (xy 172.72 60.96)
+			(xy 177.8 60.96) (xy 176.53 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6f96c46-eed2-4526-b7a2-1dfdeb6445ff")
-	)
-	(wire
-		(pts
-			(xy 146.05 88.9) (xy 140.97 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa1a3ad-8444-4f21-a883-2f31a44925b7")
 	)
 	(wire
 		(pts
@@ -2216,6 +2258,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd47046c-6db2-4f1f-8271-03ac479668c6")
+	)
+	(wire
+		(pts
 			(xy 49.53 116.84) (xy 44.45 116.84)
 		)
 		(stroke
@@ -2243,16 +2295,6 @@
 			(type default)
 		)
 		(uuid "e0268fb5-eb17-4129-be9f-6bdd85af7064")
-	)
-	(wire
-		(pts
-			(xy 114.3 88.9) (xy 109.22 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e039d885-051c-4244-a438-def87f85d115")
 	)
 	(wire
 		(pts
@@ -2303,6 +2345,16 @@
 			(type default)
 		)
 		(uuid "e8a8f464-70d1-423f-8490-22d29668f4e9")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edfe3316-4e64-419a-8736-9c4ad9bf1629")
 	)
 	(wire
 		(pts
@@ -2386,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 88.9) (xy 77.47 88.9)
+			(xy 82.55 88.9) (xy 81.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2528,7 @@
 	)
 	(global_label "Row6"
 		(shape input)
-		(at 29.21 161.29 180)
+		(at 30.48 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2486,7 +2538,7 @@
 		)
 		(uuid "12b24187-7ad8-4e28-b786-4de1cc1dd613")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2658 161.29 0)
+			(at 22.5358 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2550,7 @@
 	)
 	(global_label "Col3"
 		(shape input)
-		(at 120.65 17.78 0)
+		(at 123.19 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2508,7 +2560,7 @@
 		)
 		(uuid "17105748-23ac-4db7-a529-ca271cc7fdcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.9289 17.78 0)
+			(at 123.19 13.0411 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2572,7 @@
 	)
 	(global_label "Col2"
 		(shape input)
-		(at 88.9 17.78 0)
+		(at 91.44 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2530,7 +2582,7 @@
 		)
 		(uuid "1a4abe39-d43d-4fcf-b855-d97c4475312a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1789 17.78 0)
+			(at 91.44 13.0411 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2594,7 @@
 	)
 	(global_label "Row2"
 		(shape input)
-		(at 27.94 50.8 180)
+		(at 30.48 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2552,7 +2604,7 @@
 		)
 		(uuid "3dfa82a8-9528-4f6b-b897-817b8ab05103")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9958 50.8 0)
+			(at 22.5358 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2616,7 @@
 	)
 	(global_label "Col1"
 		(shape input)
-		(at 57.15 17.78 0)
+		(at 58.42 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2574,7 +2626,7 @@
 		)
 		(uuid "43f2f677-7d65-448b-b98d-e11951e9c733")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.4289 17.78 0)
+			(at 58.42 13.0411 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2638,7 @@
 	)
 	(global_label "Col6"
 		(shape input)
-		(at 215.9 17.78 0)
+		(at 218.44 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2596,7 +2648,7 @@
 		)
 		(uuid "6503be97-20cb-4157-af15-3e81dcba1f5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1789 17.78 0)
+			(at 218.44 13.0411 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2660,7 @@
 	)
 	(global_label "Row5"
 		(shape input)
-		(at 27.94 134.62 180)
+		(at 30.48 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2618,7 +2670,7 @@
 		)
 		(uuid "6add6dfb-36bd-4384-a22e-61872750422b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9958 134.62 0)
+			(at 22.5358 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2682,7 @@
 	)
 	(global_label "Row1"
 		(shape input)
-		(at 27.94 22.86 180)
+		(at 30.48 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2640,7 +2692,7 @@
 		)
 		(uuid "87b555ae-c91a-435e-a969-04901cda03cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9958 22.86 0)
+			(at 22.5358 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2704,7 @@
 	)
 	(global_label "Row3"
 		(shape input)
-		(at 27.94 78.74 180)
+		(at 30.48 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2662,7 +2714,7 @@
 		)
 		(uuid "965a4a30-2bcd-46c8-9525-dca60ad9f199")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9958 78.74 0)
+			(at 22.5358 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2726,7 @@
 	)
 	(global_label "Col4"
 		(shape input)
-		(at 152.4 17.78 0)
+		(at 154.94 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2684,7 +2736,7 @@
 		)
 		(uuid "9e864be7-59c4-4c40-934f-65f1b6f03e1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.6789 17.78 0)
+			(at 154.94 13.0411 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2748,7 @@
 	)
 	(global_label "Col5"
 		(shape input)
-		(at 184.15 17.78 0)
+		(at 186.69 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2706,7 +2758,7 @@
 		)
 		(uuid "cae8ba64-ee6b-4fd5-8f90-0b69c420e657")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.4289 17.78 0)
+			(at 186.69 13.0411 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2770,7 @@
 	)
 	(global_label "Row4"
 		(shape input)
-		(at 27.94 106.68 180)
+		(at 30.48 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2728,7 +2780,7 @@
 		)
 		(uuid "dcb8e690-fee1-44ed-8d14-97b46bdc2e50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9958 106.68 0)
+			(at 22.5358 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,6 +2858,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2876,11 +2934,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 92.71 90)
+		(at 177.8 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2889,7 +2953,7 @@
 		(fields_autoplaced yes)
 		(uuid "02d7c7da-73cb-4502-8569-69d898b19621")
 		(property "Reference" "D15"
-			(at 85.09 91.4399 90)
+			(at 175.26 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +2962,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.09 93.9799 90)
+			(at 175.26 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,8 +2970,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 92.71 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 92.71 0)
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2989,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 92.71 0)
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +2998,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 92.71 0)
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +3007,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 92.71 0)
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,6 +3024,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D15")
 					(unit 1)
 				)
@@ -3034,11 +3104,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 177.8 92.71 90)
+		(at 81.28 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3047,7 +3123,7 @@
 		(fields_autoplaced yes)
 		(uuid "04ed0a47-a4ae-4718-8b65-cea2bdf86bb3")
 		(property "Reference" "D21"
-			(at 180.34 91.4399 90)
+			(at 78.74 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3132,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 93.9799 90)
+			(at 78.74 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,8 +3140,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 92.71 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3159,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 177.8 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3168,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3177,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,6 +3194,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D21")
 					(unit 1)
 				)
@@ -3192,6 +3274,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3262,11 +3350,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 177.8 64.77 90)
+		(at 82.55 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3275,7 +3369,7 @@
 		(fields_autoplaced yes)
 		(uuid "14861d02-fa00-43f4-80c3-348f733a310b")
 		(property "Reference" "D11"
-			(at 180.34 63.4999 90)
+			(at 80.01 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3378,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 66.0399 90)
+			(at 80.01 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,8 +3386,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 64.77 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 64.77 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3405,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 177.8 64.77 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3414,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 64.77 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3423,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 64.77 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,6 +3440,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D11")
 					(unit 1)
 				)
@@ -3420,6 +3520,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3490,11 +3596,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 148.59 90)
+		(at 49.53 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3503,7 +3615,7 @@
 		(fields_autoplaced yes)
 		(uuid "22986d60-b9bd-418c-81c0-fa7bf3f709b0")
 		(property "Reference" "D30"
-			(at 212.09 147.3199 90)
+			(at 46.99 149.8601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3624,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 149.8599 90)
+			(at 46.99 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,8 +3632,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 148.59 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 148.59 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3651,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 148.59 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3660,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 148.59 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3669,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 148.59 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,6 +3686,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D30")
 					(unit 1)
 				)
@@ -3648,6 +3766,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3718,11 +3842,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 49.53 36.83 90)
+		(at 209.55 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3731,7 +3861,7 @@
 		(fields_autoplaced yes)
 		(uuid "29e7c829-281b-4fe0-9be5-8c5ffeed01f4")
 		(property "Reference" "D1"
-			(at 52.07 35.5599 90)
+			(at 207.01 38.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3870,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 38.0999 90)
+			(at 207.01 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,8 +3878,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 36.83 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 36.83 0)
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3897,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 49.53 36.83 0)
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3906,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 49.53 36.83 0)
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3915,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 36.83 0)
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,6 +3932,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D1")
 					(unit 1)
 				)
@@ -3876,11 +4012,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 114.3 64.77 90)
+		(at 146.05 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3889,7 +4031,7 @@
 		(fields_autoplaced yes)
 		(uuid "30dbdc29-d43c-4b71-8932-4b57c02e4f45")
 		(property "Reference" "D9"
-			(at 116.84 63.4999 90)
+			(at 143.51 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +4040,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 66.0399 90)
+			(at 143.51 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,8 +4048,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 64.77 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +4058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 64.77 0)
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4067,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 114.3 64.77 0)
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4076,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 64.77 0)
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4085,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 64.77 0)
+			(at 146.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,6 +4102,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D9")
 					(unit 1)
 				)
@@ -4034,6 +4182,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4104,11 +4258,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 148.59 90)
+		(at 114.3 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4117,7 +4277,7 @@
 		(fields_autoplaced yes)
 		(uuid "35a9aec2-d532-4b3e-a43d-931e2b42d231")
 		(property "Reference" "D28"
-			(at 148.59 147.3199 90)
+			(at 111.76 149.8601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4286,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 149.8599 90)
+			(at 111.76 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,8 +4294,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 148.59 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 148.59 0)
+			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4313,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 148.59 0)
+			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4322,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 148.59 0)
+			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4331,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 148.59 0)
+			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,6 +4348,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D28")
 					(unit 1)
 				)
@@ -4262,6 +4428,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4328,6 +4500,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "SW14")
 					(unit 1)
 				)
@@ -4402,11 +4580,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 114.3 120.65 90)
+		(at 146.05 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4415,7 +4599,7 @@
 		(fields_autoplaced yes)
 		(uuid "3caf5411-8744-4239-acf3-a06ffdc1d2b7")
 		(property "Reference" "D18"
-			(at 116.84 119.3799 90)
+			(at 143.51 121.9201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4608,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 121.9199 90)
+			(at 143.51 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,8 +4616,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 120.65 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4635,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 114.3 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4644,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4653,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,11 +4674,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 120.65 90)
+		(at 114.3 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4503,7 +4693,7 @@
 		(fields_autoplaced yes)
 		(uuid "4039ff78-e762-465f-b488-88f3ceab6a91")
 		(property "Reference" "D20"
-			(at 148.59 119.3799 90)
+			(at 111.76 121.9201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4702,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 121.9199 90)
+			(at 111.76 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,8 +4710,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 120.65 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4729,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4738,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4747,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,6 +4764,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D20")
 					(unit 1)
 				)
@@ -4648,6 +4844,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4718,11 +4920,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 36.83 90)
+		(at 49.53 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4731,7 +4939,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ed8bba0-9edb-487c-99cc-d722604cec14")
 		(property "Reference" "D6"
-			(at 212.09 35.5599 90)
+			(at 46.99 38.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4948,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 38.0999 90)
+			(at 46.99 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,8 +4956,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 36.83 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4975,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4984,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4993,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,6 +5010,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D6")
 					(unit 1)
 				)
@@ -4876,6 +5090,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4946,11 +5166,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 177.8 36.83 90)
+		(at 82.55 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4959,7 +5185,7 @@
 		(fields_autoplaced yes)
 		(uuid "63c668ef-6ac8-4efc-b34a-16c07b2bf312")
 		(property "Reference" "D5"
-			(at 180.34 35.5599 90)
+			(at 80.01 38.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +5194,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 38.0999 90)
+			(at 80.01 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,8 +5202,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 36.83 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 36.83 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5221,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 177.8 36.83 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5230,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 36.83 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5239,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 36.83 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,6 +5256,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D5")
 					(unit 1)
 				)
@@ -5104,11 +5336,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 114.3 36.83 90)
+		(at 146.05 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5117,7 +5355,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bb18fca-d3aa-4709-983c-66877737c206")
 		(property "Reference" "D3"
-			(at 116.84 35.5599 90)
+			(at 143.51 38.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5364,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 38.0999 90)
+			(at 143.51 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,8 +5372,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 36.83 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 36.83 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5391,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 114.3 36.83 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5400,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 36.83 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5409,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 36.83 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,11 +5430,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 177.8 175.26 90)
+		(at 114.3 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5205,7 +5449,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed2364c-450f-4050-bee9-9827905941cc")
 		(property "Reference" "D35"
-			(at 180.34 173.9899 90)
+			(at 111.76 176.5301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5458,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 176.5299 90)
+			(at 111.76 173.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,8 +5466,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 175.26 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 175.26 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5485,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 177.8 175.26 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5494,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 175.26 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5503,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 175.26 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,11 +5524,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D35")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 49.53 120.65 90)
+		(at 209.55 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5293,7 +5543,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aead8e0-d095-4b85-a205-aaa8107ce059")
 		(property "Reference" "D14"
-			(at 52.07 119.3799 90)
+			(at 207.01 121.9201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5552,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 121.9199 90)
+			(at 207.01 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,8 +5560,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 120.65 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5579,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 49.53 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5588,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 49.53 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5597,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,11 +5618,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 148.59 90)
+		(at 177.8 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5381,7 +5637,7 @@
 		(fields_autoplaced yes)
 		(uuid "80cbc09e-b458-42b6-b847-1da218cef8d3")
 		(property "Reference" "D26"
-			(at 85.09 147.3199 90)
+			(at 175.26 149.8601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5646,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.09 149.8599 90)
+			(at 175.26 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,8 +5654,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 148.59 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5673,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5682,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5691,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 148.59 0)
+			(at 177.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,6 +5708,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D26")
 					(unit 1)
 				)
@@ -5526,11 +5788,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 177.8 120.65 90)
+		(at 82.55 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5539,7 +5807,7 @@
 		(fields_autoplaced yes)
 		(uuid "89e7bcb2-ed08-46a2-9522-39bef3ded4e8")
 		(property "Reference" "D22"
-			(at 180.34 119.3799 90)
+			(at 80.01 121.9201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5816,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 121.9199 90)
+			(at 80.01 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,8 +5824,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 120.65 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 120.65 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5843,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 177.8 120.65 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5852,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 120.65 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5861,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 120.65 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,6 +5878,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D22")
 					(unit 1)
 				)
@@ -5684,11 +5958,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 36.83 90)
+		(at 114.3 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5697,7 +5977,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e527f6f-0d7a-4fc1-bae0-155317fd5b73")
 		(property "Reference" "D4"
-			(at 148.59 35.5599 90)
+			(at 111.76 38.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +5986,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 38.0999 90)
+			(at 111.76 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,8 +5994,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 36.83 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +6004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 36.83 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6013,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 36.83 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +6022,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 36.83 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +6031,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 36.83 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,11 +6052,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 120.65 90)
+		(at 49.53 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,7 +6071,7 @@
 		(fields_autoplaced yes)
 		(uuid "94428e3a-434b-49d7-b000-7ebfd7a27886")
 		(property "Reference" "D24"
-			(at 212.09 119.3799 90)
+			(at 46.99 121.9201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +6080,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 121.9199 90)
+			(at 46.99 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,8 +6088,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 120.65 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +6098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 120.65 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6107,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 120.65 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +6116,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 120.65 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6125,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 120.65 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,11 +6146,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 49.53 175.26 90)
+		(at 49.53 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5878,7 +6170,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
@@ -5887,10 +6179,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -5944,6 +6236,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D31")
 					(unit 1)
 				)
@@ -6018,11 +6316,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 49.53 148.59 90)
+		(at 209.55 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6031,7 +6335,7 @@
 		(fields_autoplaced yes)
 		(uuid "99b23afd-fafd-40d7-9c07-dc506dddde48")
 		(property "Reference" "D25"
-			(at 52.07 147.3199 90)
+			(at 207.01 149.8601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6344,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 149.8599 90)
+			(at 207.01 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,8 +6352,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 148.59 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 148.59 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6371,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 49.53 148.59 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6380,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 49.53 148.59 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6389,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 148.59 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,6 +6406,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D25")
 					(unit 1)
 				)
@@ -6176,11 +6486,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 64.77 90)
+		(at 176.53 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6189,7 +6505,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d4c1358-31ec-4d6a-94dc-4379e69ec903")
 		(property "Reference" "D8"
-			(at 85.09 63.4999 90)
+			(at 173.99 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6514,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.09 66.0399 90)
+			(at 173.99 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,8 +6522,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 64.77 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 64.77 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6541,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 64.77 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6550,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 64.77 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6559,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 64.77 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,11 +6580,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 114.3 92.71 90)
+		(at 146.05 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6277,7 +6599,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dd3cc5a-5303-4807-b442-33f6e99bae8c")
 		(property "Reference" "D17"
-			(at 116.84 91.4399 90)
+			(at 143.51 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6608,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 93.9799 90)
+			(at 143.51 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,8 +6616,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 92.71 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6635,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 114.3 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6644,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6653,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,11 +6674,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 49.53 64.77 90)
+		(at 209.55 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6365,7 +6693,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0ecc948-92dc-47db-90d4-e89ada9200b4")
 		(property "Reference" "D7"
-			(at 52.07 63.4999 90)
+			(at 207.01 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6702,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 66.0399 90)
+			(at 207.01 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,8 +6710,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 64.77 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 209.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 64.77 0)
+			(at 209.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6729,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 49.53 64.77 0)
+			(at 209.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6738,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 49.53 64.77 0)
+			(at 209.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6747,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 64.77 0)
+			(at 209.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,11 +6768,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 175.26 90)
+		(at 209.55 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6453,7 +6787,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9f66aae-db4f-4003-97d1-0499d93644e3")
 		(property "Reference" "D32"
-			(at 85.09 173.9899 90)
+			(at 207.01 176.5301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6796,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.09 176.5299 90)
+			(at 207.01 173.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,8 +6804,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 175.26 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 209.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 175.26 0)
+			(at 209.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6823,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 175.26 0)
+			(at 209.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6832,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 175.26 0)
+			(at 209.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6841,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 175.26 0)
+			(at 209.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,6 +6858,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D32")
 					(unit 1)
 				)
@@ -6598,6 +6938,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6668,11 +7014,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 175.26 90)
+		(at 82.55 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6681,7 +7033,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbf68855-4270-4e22-a67b-03aeedf07368")
 		(property "Reference" "D36"
-			(at 212.09 173.9899 90)
+			(at 80.01 176.5301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +7042,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 176.5299 90)
+			(at 80.01 173.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,8 +7050,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 175.26 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 82.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +7060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 175.26 0)
+			(at 82.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +7069,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 175.26 0)
+			(at 82.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +7078,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 175.26 0)
+			(at 82.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +7087,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 175.26 0)
+			(at 82.55 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,11 +7108,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D36")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 177.8 148.59 90)
+		(at 82.55 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6769,7 +7127,7 @@
 		(fields_autoplaced yes)
 		(uuid "be6a69f1-5f40-4048-a9a3-6bf5abeeb284")
 		(property "Reference" "D29"
-			(at 180.34 147.3199 90)
+			(at 80.01 149.8601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +7136,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 149.8599 90)
+			(at 80.01 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,8 +7144,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 148.59 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +7154,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 148.59 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7163,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 177.8 148.59 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +7172,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 148.59 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +7181,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 148.59 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,11 +7202,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D29")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 49.53 92.71 90)
+		(at 209.55 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6857,7 +7221,7 @@
 		(fields_autoplaced yes)
 		(uuid "c00a2e0f-bd6b-4243-8b66-896d0a547024")
 		(property "Reference" "D13"
-			(at 52.07 91.4399 90)
+			(at 207.01 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7230,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 93.9799 90)
+			(at 207.01 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,8 +7238,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 92.71 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +7248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 92.71 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +7257,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 49.53 92.71 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +7266,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 49.53 92.71 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +7275,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 92.71 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,6 +7292,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D13")
 					(unit 1)
 				)
@@ -7002,6 +7372,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7072,11 +7448,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 120.65 90)
+		(at 177.8 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7085,7 +7467,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4469100-5cff-48c7-a7a9-c1fe00357d10")
 		(property "Reference" "D16"
-			(at 85.09 119.3799 90)
+			(at 175.26 121.9201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7476,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.09 121.9199 90)
+			(at 175.26 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,8 +7484,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 120.65 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 120.65 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7503,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 120.65 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7512,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 120.65 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7521,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 120.65 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,11 +7542,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 82.55 36.83 90)
+		(at 177.8 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7173,7 +7561,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8aad096-551e-451d-8d9b-36e3befdd26e")
 		(property "Reference" "D2"
-			(at 85.09 35.5599 90)
+			(at 175.26 38.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,7 +7570,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 85.09 38.0999 90)
+			(at 175.26 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,8 +7578,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 36.83 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7597,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 82.55 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +7606,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7615,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,11 +7636,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 175.26 90)
+		(at 146.05 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7261,7 +7655,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbaabb19-6010-44b6-87be-5e209797417d")
 		(property "Reference" "D34"
-			(at 148.59 173.9899 90)
+			(at 143.51 176.5301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7664,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 176.5299 90)
+			(at 143.51 173.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7278,7 +7672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
 			(at 146.05 175.26 0)
 			(effects
 				(font
@@ -7336,11 +7730,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 114.3 175.26 90)
+		(at 177.8 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7349,7 +7749,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbfa7a47-400d-4f47-bcab-b007d0e1fff5")
 		(property "Reference" "D33"
-			(at 116.84 173.9899 90)
+			(at 175.26 176.5301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7758,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 176.5299 90)
+			(at 175.26 173.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,8 +7766,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 175.26 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 177.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 175.26 0)
+			(at 177.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7785,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 114.3 175.26 0)
+			(at 177.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7794,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 175.26 0)
+			(at 177.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7803,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 175.26 0)
+			(at 177.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,6 +7820,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D33")
 					(unit 1)
 				)
@@ -7494,11 +7900,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 64.77 90)
+		(at 49.53 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7507,7 +7919,7 @@
 		(fields_autoplaced yes)
 		(uuid "d10a17a4-d20b-4ac5-9a60-81b536fb24fd")
 		(property "Reference" "D12"
-			(at 212.09 63.4999 90)
+			(at 46.99 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7928,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 66.0399 90)
+			(at 46.99 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,8 +7936,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 64.77 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7955,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7964,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7973,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,11 +7994,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 92.71 90)
+		(at 49.53 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7595,7 +8013,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1133aed-3a30-43a7-ba26-dfb3bca09ab3")
 		(property "Reference" "D23"
-			(at 212.09 91.4399 90)
+			(at 46.99 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +8022,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 93.9799 90)
+			(at 46.99 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,8 +8030,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 92.71 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +8040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 92.71 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +8049,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 92.71 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +8058,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 92.71 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +8067,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 92.71 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,6 +8084,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D23")
 					(unit 1)
 				)
@@ -7740,6 +8164,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7806,6 +8236,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "SW4")
 					(unit 1)
 				)
@@ -7880,11 +8316,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 64.77 90)
+		(at 114.3 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7893,7 +8335,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc51402d-7091-433f-bfe9-a80363eeb909")
 		(property "Reference" "D10"
-			(at 148.59 63.4999 90)
+			(at 111.76 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +8344,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 66.0399 90)
+			(at 111.76 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,8 +8352,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 64.77 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +8362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 64.77 0)
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +8371,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 64.77 0)
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +8380,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 64.77 0)
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +8389,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 64.77 0)
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,11 +8410,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "D10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 92.71 90)
+		(at 114.3 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7981,7 +8429,7 @@
 		(fields_autoplaced yes)
 		(uuid "e044e5f5-b912-4e7f-8ea0-a0f682bddd66")
 		(property "Reference" "D19"
-			(at 148.59 91.4399 90)
+			(at 111.76 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +8438,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 93.9799 90)
+			(at 111.76 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,8 +8446,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 92.71 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +8456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 92.71 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8465,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 92.71 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8474,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 92.71 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8035,7 +8483,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 92.71 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,6 +8500,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D19")
 					(unit 1)
 				)
@@ -8126,11 +8580,17 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 114.3 148.59 90)
+		(at 146.05 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8139,7 +8599,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3d67d3d-b642-4b30-89ab-cdeae7c700da")
 		(property "Reference" "D27"
-			(at 116.84 147.3199 90)
+			(at 143.51 149.8601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8608,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 149.8599 90)
+			(at 143.51 147.3201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,8 +8616,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 148.59 0)
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 148.59 0)
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8635,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 114.3 148.59 0)
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8644,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 148.59 0)
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8653,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 148.59 0)
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,6 +8670,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "D27")
 					(unit 1)
 				)
@@ -8284,6 +8750,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8354,6 +8826,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8420,6 +8898,12 @@
 		(instances
 			(project "Keyboard"
 				(path "/1225adc7-efa2-44cb-91af-fab8e6e9ac14"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
 					(reference "SW29")
 					(unit 1)
 				)

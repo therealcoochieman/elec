@@ -2844,6 +2844,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2910,6 +2916,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "C3")
 					(unit 1)
 				)
@@ -2984,6 +2996,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3046,6 +3064,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -3120,6 +3144,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3190,6 +3220,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3256,6 +3292,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "C9")
 					(unit 1)
 				)
@@ -3517,6 +3559,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3579,6 +3627,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -3653,6 +3707,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3723,6 +3783,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3789,6 +3855,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3851,6 +3923,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -3925,6 +4003,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3991,6 +4075,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "C6")
 					(unit 1)
 				)
@@ -4063,6 +4153,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "reset_btn1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4129,6 +4225,12 @@
 					(unit 1)
 				)
 			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4159,7 +4261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 142.875 76.2 90)
 			(effects
 				(font
@@ -4195,6 +4297,12 @@
 		(instances
 			(project "keybaord"
 				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+			(project "Projet ELEC"
+				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9bbe7e6a-d830-471e-900b-a555ab0eb406"
 					(reference "BZ1")
 					(unit 1)
 				)
