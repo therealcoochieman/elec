@@ -585,6 +585,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -599,7 +607,7 @@
   "sheets": [
     [
       "2d0c4a09-24e5-4892-bf2e-0a851a14e0ff",
-      "Racine"
+      "Root"
     ],
     [
       "4d0d6547-4be3-42c7-87d5-a2ecca8bf422",
