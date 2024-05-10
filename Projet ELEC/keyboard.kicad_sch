@@ -669,12 +669,6 @@
 		(uuid "f71bdcbc-ed71-482c-b494-50d72dbb754f")
 	)
 	(junction
-		(at 81.28 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f723b8d5-c975-4fc3-9207-084853f92da9")
-	)
-	(junction
 		(at 77.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -828,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 128.27 134.62)
+			(xy 109.22 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1115,26 +1109,6 @@
 			(type default)
 		)
 		(uuid "3c8d83c0-d66f-497a-9078-00598ae9ba5a")
-	)
-	(wire
-		(pts
-			(xy 135.89 134.62) (xy 140.97 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe208f4-5f65-4c74-a643-07ad4e66e547")
-	)
-	(wire
-		(pts
-			(xy 135.89 106.68) (xy 140.97 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4215ce48-4a21-4b44-ba19-d798f6497b36")
 	)
 	(wire
 		(pts
@@ -1878,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 128.27 106.68)
+			(xy 109.22 106.68) (xy 140.97 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2348,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 77.47 88.9)
+			(xy 77.47 88.9) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2438,16 +2412,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 88.9) (xy 81.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f987bbca-541c-4b23-b300-122735492d3e")
-	)
-	(wire
-		(pts
 			(xy 109.22 78.74) (xy 140.97 78.74)
 		)
 		(stroke
@@ -2527,7 +2491,7 @@
 		(uuid "ffb921c2-3f95-4a91-b96f-bc59614bc4da")
 	)
 	(global_label "Row6"
-		(shape input)
+		(shape output)
 		(at 30.48 161.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2593,7 +2557,7 @@
 		)
 	)
 	(global_label "Row2"
-		(shape input)
+		(shape output)
 		(at 30.48 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2659,7 +2623,7 @@
 		)
 	)
 	(global_label "Row5"
-		(shape input)
+		(shape output)
 		(at 30.48 134.62 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2681,7 +2645,7 @@
 		)
 	)
 	(global_label "Row1"
-		(shape input)
+		(shape output)
 		(at 30.48 22.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2703,7 +2667,7 @@
 		)
 	)
 	(global_label "Row3"
-		(shape input)
+		(shape output)
 		(at 30.48 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2769,7 +2733,7 @@
 		)
 	)
 	(global_label "Row4"
-		(shape input)
+		(shape output)
 		(at 30.48 106.68 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2818,7 +2782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 55.88 0)
 			(effects
 				(font
@@ -2894,7 +2858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 139.7 0)
 			(effects
 				(font
@@ -2970,7 +2934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 177.8 92.71 0)
 			(effects
 				(font
@@ -3064,7 +3028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -3114,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 81.28 92.71 270)
+		(at 82.55 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3123,7 +3087,7 @@
 		(fields_autoplaced yes)
 		(uuid "04ed0a47-a4ae-4718-8b65-cea2bdf86bb3")
 		(property "Reference" "D21"
-			(at 78.74 93.9801 90)
+			(at 80.01 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3096,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 78.74 91.4401 90)
+			(at 80.01 91.4401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,8 +3104,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
-			(at 81.28 92.71 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 92.71 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3123,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 81.28 92.71 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3132,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 92.71 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3141,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 92.71 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 177.8 166.37 0)
 			(effects
 				(font
@@ -3310,7 +3274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 83.82 0)
 			(effects
 				(font
@@ -3386,7 +3350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -3480,7 +3444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 166.37 0)
 			(effects
 				(font
@@ -3556,7 +3520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -3632,7 +3596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.53 148.59 0)
 			(effects
 				(font
@@ -3726,7 +3690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -3802,7 +3766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 111.76 0)
 			(effects
 				(font
@@ -3878,7 +3842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 209.55 36.83 0)
 			(effects
 				(font
@@ -3972,7 +3936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 177.8 27.94 0)
 			(effects
 				(font
@@ -4048,7 +4012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.05 64.77 0)
 			(effects
 				(font
@@ -4142,7 +4106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 139.7 0)
 			(effects
 				(font
@@ -4218,7 +4182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 114.3 111.76 0)
 			(effects
 				(font
@@ -4294,7 +4258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 114.3 148.59 0)
 			(effects
 				(font
@@ -4388,7 +4352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 177.8 55.88 0)
 			(effects
 				(font
@@ -4464,7 +4428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 83.82 0)
 			(effects
 				(font
@@ -4540,7 +4504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 49.53 83.82 0)
 			(effects
 				(font
@@ -4616,7 +4580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.05 120.65 0)
 			(effects
 				(font
@@ -4710,7 +4674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -4804,7 +4768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 49.53 111.76 0)
 			(effects
 				(font
@@ -4880,7 +4844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 49.53 166.37 0)
 			(effects
 				(font
@@ -4956,7 +4920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.53 36.83 0)
 			(effects
 				(font
@@ -5050,7 +5014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 27.94 0)
 			(effects
 				(font
@@ -5126,7 +5090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 166.37 0)
 			(effects
 				(font
@@ -5202,7 +5166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 82.55 36.83 0)
 			(effects
 				(font
@@ -5296,7 +5260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -5372,7 +5336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -5466,7 +5430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 114.3 175.26 0)
 			(effects
 				(font
@@ -5560,7 +5524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -5654,7 +5618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 177.8 148.59 0)
 			(effects
 				(font
@@ -5748,7 +5712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 114.3 139.7 0)
 			(effects
 				(font
@@ -5824,7 +5788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -5918,7 +5882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -5994,7 +5958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 114.3 36.83 0)
 			(effects
 				(font
@@ -6088,7 +6052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -6182,7 +6146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -6276,7 +6240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 166.37 0)
 			(effects
 				(font
@@ -6352,7 +6316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 209.55 148.59 0)
 			(effects
 				(font
@@ -6446,7 +6410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 177.8 111.76 0)
 			(effects
 				(font
@@ -6522,7 +6486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6616,7 +6580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.05 92.71 0)
 			(effects
 				(font
@@ -6710,7 +6674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 209.55 64.77 0)
 			(effects
 				(font
@@ -6804,7 +6768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 209.55 175.26 0)
 			(effects
 				(font
@@ -6898,7 +6862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 114.3 166.37 0)
 			(effects
 				(font
@@ -6974,7 +6938,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -7050,7 +7014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 82.55 175.26 0)
 			(effects
 				(font
@@ -7144,7 +7108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -7238,7 +7202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 209.55 92.71 0)
 			(effects
 				(font
@@ -7332,7 +7296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 83.82 0)
 			(effects
 				(font
@@ -7408,7 +7372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 139.7 0)
 			(effects
 				(font
@@ -7484,7 +7448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 177.8 120.65 0)
 			(effects
 				(font
@@ -7578,7 +7542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 177.8 36.83 0)
 			(effects
 				(font
@@ -7672,7 +7636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.05 175.26 0)
 			(effects
 				(font
@@ -7766,7 +7730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 177.8 175.26 0)
 			(effects
 				(font
@@ -7860,7 +7824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 114.3 27.94 0)
 			(effects
 				(font
@@ -7936,7 +7900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.53 64.77 0)
 			(effects
 				(font
@@ -8030,7 +7994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.53 92.71 0)
 			(effects
 				(font
@@ -8124,7 +8088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 111.76 0)
 			(effects
 				(font
@@ -8200,7 +8164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -8276,7 +8240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 55.88 0)
 			(effects
 				(font
@@ -8352,7 +8316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -8446,7 +8410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -8540,7 +8504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -8616,7 +8580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 146.05 148.59 0)
 			(effects
 				(font
@@ -8710,7 +8674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -8786,7 +8750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -8862,7 +8826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 177.8 139.7 0)
 			(effects
 				(font

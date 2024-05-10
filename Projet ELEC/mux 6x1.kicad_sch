@@ -973,431 +973,6 @@
 				)
 			)
 		)
-		(symbol "74xx:74LS04"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LS04"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Hex Inverter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL not inv"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS04_1_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_2_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_3_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_4_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_5_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_6_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_7_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS04_7_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "74xx:74LS21"
 			(pin_names
 				(offset 1.016)
@@ -2940,12 +2515,6 @@
 		(uuid "48a74b34-dcb4-4f5a-b2b9-31617f6f9709")
 	)
 	(junction
-		(at 73.66 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eab83fb-2e9c-4083-be31-ae3f89be1a8f")
-	)
-	(junction
 		(at 156.21 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3340,16 +2909,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 156.21) (xy 64.77 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b865519-0841-4926-8b1b-4bd7f5896993")
-	)
-	(wire
-		(pts
 			(xy 67.31 69.85) (xy 80.01 69.85)
 		)
 		(stroke
@@ -3470,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 156.21) (xy 73.66 156.21)
+			(xy 64.77 156.21) (xy 87.63 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +4625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 186.69 114.808 90)
 			(effects
 				(font
@@ -5257,116 +4816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4071")
-		(at 20.32 184.15 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2101e1a5-833b-4dad-9dbc-21359ce96c10")
-		(property "Reference" "U7"
-			(at 20.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4071"
-			(at 20.32 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 20.32 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 20.32 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Or 2 inputs"
-			(at 20.32 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "c6dfba91-baad-4668-b611-5ad1e825c3ca")
-		)
-		(pin "8"
-			(uuid "537426f0-832f-4843-97f2-59e09879338e")
-		)
-		(pin "3"
-			(uuid "8d073783-8f98-4b0e-8a0b-fde4934a5cf7")
-		)
-		(pin "11"
-			(uuid "3ff8b203-3395-421f-833c-ab68c9b89e7d")
-		)
-		(pin "13"
-			(uuid "952e3d17-d91d-493c-9e78-2fecac5cde36")
-		)
-		(pin "1"
-			(uuid "517eb2a1-f94c-454c-9184-d21992817a3a")
-		)
-		(pin "9"
-			(uuid "7cb904b5-6e48-456d-a19a-a4486a5d7f7d")
-		)
-		(pin "14"
-			(uuid "6deb5c10-ca81-443a-9906-11517d35cdef")
-		)
-		(pin "4"
-			(uuid "7483d2c5-0164-45d9-b0fb-5e703a2788f2")
-		)
-		(pin "2"
-			(uuid "82647669-7dad-4632-af73-e7f1052e0af1")
-		)
-		(pin "6"
-			(uuid "2663c10f-c93e-4fef-9721-3194ddd2d42f")
-		)
-		(pin "10"
-			(uuid "9243622a-7abb-4cef-8d00-713b520d6c54")
-		)
-		(pin "7"
-			(uuid "a3e193c6-7252-482b-bc88-4c72bce962a9")
-		)
-		(pin "5"
-			(uuid "9bdbd904-cb17-488d-ab72-39ba86bccb6e")
-		)
-		(instances
-			(project "keybaord"
-				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
-					(reference "U7")
-					(unit 4)
-				)
-			)
-			(project "Projet ELEC"
-				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
-					(reference "U7")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:ZXM61N02F")
 		(at 163.83 115.57 90)
 		(unit 1)
@@ -5545,7 +4994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 29.972 130.81 90)
 			(effects
 				(font
@@ -6384,7 +5833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 29.972 95.25 90)
 			(effects
 				(font
@@ -6454,7 +5903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 29.972 57.15 90)
 			(effects
 				(font
@@ -6607,118 +6056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 73.66 168.91 180)
-		(unit 7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f024a0c-7f7a-4941-b4fb-157c21a33583")
-		(property "Reference" "U1"
-			(at 67.31 170.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 67.31 167.6401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 73.66 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 73.66 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 73.66 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "ef374b1c-afb9-4abb-8e72-e009935e82f0")
-		)
-		(pin "1"
-			(uuid "33d4a43f-4ddd-4e0d-9d77-cccb8d27f726")
-		)
-		(pin "10"
-			(uuid "dc19a937-4cfa-45a4-b712-90653b122f09")
-		)
-		(pin "12"
-			(uuid "59fc1c28-5501-46c8-a25e-5f9b5ae97598")
-		)
-		(pin "13"
-			(uuid "cd25ae19-a0ee-4198-be7c-1b4ebdaeca53")
-		)
-		(pin "7"
-			(uuid "4378f801-d3a8-45e6-8fc9-4b4282de09a8")
-		)
-		(pin "11"
-			(uuid "dabbe39d-4f79-4317-80a7-45aeecb0ce11")
-		)
-		(pin "4"
-			(uuid "402c6458-51b1-43ea-901b-02d007808694")
-		)
-		(pin "9"
-			(uuid "e24fa811-e9f6-44a2-8904-80eddee158b7")
-		)
-		(pin "2"
-			(uuid "f5d197ee-3def-4843-b366-79d91e34b7f0")
-		)
-		(pin "8"
-			(uuid "90362f21-ff21-4a5c-bfd7-36f1f8dead4a")
-		)
-		(pin "3"
-			(uuid "d6fe780a-4505-4790-acb2-2db814549cdf")
-		)
-		(pin "14"
-			(uuid "650f0780-5072-48ce-9353-b1c50a40a69d")
-		)
-		(pin "5"
-			(uuid "0fae1408-b5b5-4cb7-bf34-6afc980baea6")
-		)
-		(instances
-			(project "keybaord"
-				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
-					(reference "U1")
-					(unit 7)
-				)
-			)
-			(project "Projet ELEC"
-				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
-					(reference "U1")
-					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 113.03 90)
 		(unit 1)
@@ -6746,7 +6083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 110.49 114.808 90)
 			(effects
 				(font
@@ -7030,7 +6367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 148.59 114.808 90)
 			(effects
 				(font
@@ -7282,116 +6619,6 @@
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR020")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4071")
-		(at 21.59 170.18 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a230bd7-9dfc-464d-8cf9-e2f174f42102")
-		(property "Reference" "U7"
-			(at 21.59 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4071"
-			(at 21.59 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 21.59 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 21.59 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Or 2 inputs"
-			(at 21.59 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "c6dfba91-baad-4668-b611-5ad1e825c3cd")
-		)
-		(pin "8"
-			(uuid "537426f0-832f-4843-97f2-59e098793391")
-		)
-		(pin "3"
-			(uuid "8d073783-8f98-4b0e-8a0b-fde4934a5cfa")
-		)
-		(pin "11"
-			(uuid "3ff8b203-3395-421f-833c-ab68c9b89e80")
-		)
-		(pin "13"
-			(uuid "952e3d17-d91d-493c-9e78-2fecac5cde39")
-		)
-		(pin "1"
-			(uuid "517eb2a1-f94c-454c-9184-d21992817a3d")
-		)
-		(pin "9"
-			(uuid "7cb904b5-6e48-456d-a19a-a4486a5d7f80")
-		)
-		(pin "14"
-			(uuid "6deb5c10-ca81-443a-9906-11517d35cdf2")
-		)
-		(pin "4"
-			(uuid "7483d2c5-0164-45d9-b0fb-5e703a2788f5")
-		)
-		(pin "2"
-			(uuid "82647669-7dad-4632-af73-e7f1052e0af4")
-		)
-		(pin "6"
-			(uuid "2663c10f-c93e-4fef-9721-3194ddd2d432")
-		)
-		(pin "10"
-			(uuid "9243622a-7abb-4cef-8d00-713b520d6c57")
-		)
-		(pin "7"
-			(uuid "a3e193c6-7252-482b-bc88-4c72bce962ac")
-		)
-		(pin "5"
-			(uuid "9bdbd904-cb17-488d-ab72-39ba86bccb71")
-		)
-		(instances
-			(project "keybaord"
-				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
-					(reference "U7")
-					(unit 3)
-				)
-			)
-			(project "Projet ELEC"
-				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
-					(reference "U7")
-					(unit 3)
 				)
 			)
 		)
@@ -8765,116 +7992,6 @@
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4071")
-		(at 20.32 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e338d44a-44a9-424c-9a29-a3bb219f92cb")
-		(property "Reference" "U7"
-			(at 20.32 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4071"
-			(at 20.32 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 20.32 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 20.32 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Or 2 inputs"
-			(at 20.32 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "c6dfba91-baad-4668-b611-5ad1e825c3ce")
-		)
-		(pin "8"
-			(uuid "537426f0-832f-4843-97f2-59e098793392")
-		)
-		(pin "3"
-			(uuid "8d073783-8f98-4b0e-8a0b-fde4934a5cfb")
-		)
-		(pin "11"
-			(uuid "3ff8b203-3395-421f-833c-ab68c9b89e81")
-		)
-		(pin "13"
-			(uuid "952e3d17-d91d-493c-9e78-2fecac5cde3a")
-		)
-		(pin "1"
-			(uuid "517eb2a1-f94c-454c-9184-d21992817a3e")
-		)
-		(pin "9"
-			(uuid "7cb904b5-6e48-456d-a19a-a4486a5d7f81")
-		)
-		(pin "14"
-			(uuid "6deb5c10-ca81-443a-9906-11517d35cdf3")
-		)
-		(pin "4"
-			(uuid "7483d2c5-0164-45d9-b0fb-5e703a2788f6")
-		)
-		(pin "2"
-			(uuid "82647669-7dad-4632-af73-e7f1052e0af5")
-		)
-		(pin "6"
-			(uuid "2663c10f-c93e-4fef-9721-3194ddd2d433")
-		)
-		(pin "10"
-			(uuid "9243622a-7abb-4cef-8d00-713b520d6c58")
-		)
-		(pin "7"
-			(uuid "a3e193c6-7252-482b-bc88-4c72bce962ad")
-		)
-		(pin "5"
-			(uuid "9bdbd904-cb17-488d-ab72-39ba86bccb72")
-		)
-		(instances
-			(project "keybaord"
-				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-			(project "Projet ELEC"
-				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
-					(reference "U7")
 					(unit 1)
 				)
 			)

@@ -4113,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 72.39 53.34 0)
 			(effects
 				(font
