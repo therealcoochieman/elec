@@ -5210,7 +5210,7 @@
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -7084,7 +7084,7 @@
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
 					(reference "U2")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
