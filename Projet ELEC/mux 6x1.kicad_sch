@@ -4099,7 +4099,7 @@
 			)
 		)
 	)
-	(global_label "DEMUX_OUTPUT"
+	(global_label "MUX_OUTPUT"
 		(shape output)
 		(at 283.21 54.61 0)
 		(fields_autoplaced yes)
@@ -4111,7 +4111,7 @@
 		)
 		(uuid "c22a983f-bc76-45fe-96ed-f1efd9284295")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.7699 54.61 0)
+			(at 298.3509 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
