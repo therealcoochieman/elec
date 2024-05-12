@@ -2419,12 +2419,6 @@
 		)
 	)
 	(junction
-		(at 87.63 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01c1b14e-79c8-455a-a7b8-ce471092d778")
-	)
-	(junction
 		(at 102.87 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2659,12 +2653,6 @@
 		(uuid "d3be8d0a-9f51-443b-b249-19217790099b")
 	)
 	(junction
-		(at 87.63 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d73f2111-767a-4c2f-aa4f-44ca3e97ba98")
-	)
-	(junction
 		(at 80.01 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2684,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 181.61) (xy 87.63 181.61)
+			(xy 73.66 181.61) (xy 101.6 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2919,16 +2907,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 181.61) (xy 73.66 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8b860e-addb-414e-aff1-8050597e7d14")
-	)
-	(wire
-		(pts
 			(xy 157.48 156.21) (xy 143.51 156.21)
 		)
 		(stroke
@@ -2966,16 +2944,6 @@
 			(type default)
 		)
 		(uuid "3571c29b-fd03-4012-9c08-7e29099c744d")
-	)
-	(wire
-		(pts
-			(xy 101.6 156.21) (xy 87.63 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367768bf-9223-4951-8ff7-a9cdef98fb55")
 	)
 	(wire
 		(pts
@@ -3029,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 156.21) (xy 87.63 156.21)
+			(xy 64.77 156.21) (xy 101.6 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5344,12 +5312,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 177.8 113.03 0)
+		(property "Value" "+3.3V"
+			(at 179.07 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5410,7 +5379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+3.3V"
 			(at 31.75 86.36 0)
 			(effects
 				(font
@@ -5476,12 +5445,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 139.7 113.03 0)
+		(property "Value" "+3.3V"
+			(at 140.97 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6495,12 +6465,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 173.99 181.61 0)
+		(property "Value" "+3.3V"
+			(at 172.72 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6643,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+3.3V"
 			(at 31.75 121.92 0)
 			(effects
 				(font
@@ -7656,112 +7627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS21")
-		(at 87.63 168.91 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be9700d9-ca7a-4836-b1b2-e9f355949b77")
-		(property "Reference" "U4"
-			(at 81.28 170.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS21"
-			(at 81.28 167.6401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 87.63 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS21"
-			(at 87.63 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 4-input AND"
-			(at 87.63 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "763e91d1-932d-4709-8c77-bc8366bbac1f")
-		)
-		(pin "14"
-			(uuid "e88f149c-8e2b-4ccb-a7d0-8649a73edb22")
-		)
-		(pin "9"
-			(uuid "bdc6511c-53c9-4980-a8f5-21cc87a6c123")
-		)
-		(pin "12"
-			(uuid "450eb5d8-fa7f-48d8-af95-80d5a32b12e4")
-		)
-		(pin "6"
-			(uuid "35ee84bd-080a-4c48-97db-5e2d7f4425b0")
-		)
-		(pin "7"
-			(uuid "a17616f7-b0df-48a7-9d52-6892f939c723")
-		)
-		(pin "8"
-			(uuid "f1e5f95d-61ad-4535-b360-7a7989788721")
-		)
-		(pin "4"
-			(uuid "8cd624a1-eef2-4e5b-9b09-4be3ce2fdf4d")
-		)
-		(pin "1"
-			(uuid "bc485411-932f-4a7f-8559-81de89d4e6d3")
-		)
-		(pin "2"
-			(uuid "0255c588-c5f4-4131-a31b-6b7028bd44ae")
-		)
-		(pin "13"
-			(uuid "8b0e4cc2-2c44-47b0-a1c2-54aebd926bac")
-		)
-		(pin "5"
-			(uuid "bd6257fe-864c-445a-b02b-dc141de32b13")
-		)
-		(instances
-			(project "keybaord"
-				(path "/0ffb217f-e60b-4e29-93ea-87d2d0bc15d5"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-			(project "Projet ELEC"
-				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/ce375f09-db8e-41ad-aaf2-7f45cfa7dab4"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:ZXM61N02F")
 		(at 201.93 115.57 90)
 		(unit 1)
@@ -8327,7 +8192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+3.3V"
 			(at 31.75 48.26 0)
 			(effects
 				(font
@@ -8393,12 +8258,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 101.6 113.03 0)
+		(property "Value" "+3.3V"
+			(at 102.87 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

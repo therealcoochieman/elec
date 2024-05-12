@@ -2749,21 +2749,21 @@
 		(fields_autoplaced yes)
 		(uuid "0250f7e6-76bb-4ce3-9b66-e98a5a536980")
 		(property "Reference" "SW8"
-			(at 76.2 54.6099 90)
+			(at 81.28 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 76.2 57.1499 90)
+		(property "Value" "SWR2C2"
+			(at 81.28 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -2808,7 +2808,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW8")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -2825,21 +2825,21 @@
 		(fields_autoplaced yes)
 		(uuid "028e561a-4837-43d7-bfe3-6ca457851aa2")
 		(property "Reference" "SW26"
-			(at 76.2 138.4299 90)
+			(at 81.28 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 76.2 140.9699 90)
+		(property "Value" "SWR5C2"
+			(at 81.28 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -2884,7 +2884,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW26")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -2901,21 +2901,21 @@
 		(fields_autoplaced yes)
 		(uuid "02d7c7da-73cb-4502-8569-69d898b19621")
 		(property "Reference" "D15"
-			(at 175.26 93.9801 90)
+			(at 180.34 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 91.4401 90)
+			(at 180.34 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -2978,7 +2978,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D15")
+					(reference "DR3C5")
 					(unit 1)
 				)
 			)
@@ -2995,21 +2995,21 @@
 		(fields_autoplaced yes)
 		(uuid "03c21c52-42a0-4f85-82f7-c5198d6e1f9e")
 		(property "Reference" "SW15"
-			(at 107.95 82.5499 90)
+			(at 113.03 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 107.95 85.0899 90)
+		(property "Value" "SWR3C3"
+			(at 113.03 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3054,7 +3054,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW15")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -3071,21 +3071,21 @@
 		(fields_autoplaced yes)
 		(uuid "04ed0a47-a4ae-4718-8b65-cea2bdf86bb3")
 		(property "Reference" "D21"
-			(at 80.01 93.9801 90)
+			(at 85.09 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 80.01 91.4401 90)
+			(at 85.09 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -3148,7 +3148,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D21")
+					(reference "DR3C2")
 					(unit 1)
 				)
 			)
@@ -3165,21 +3165,21 @@
 		(fields_autoplaced yes)
 		(uuid "08408cfe-558c-4e59-9237-235bfb9b7001")
 		(property "Reference" "SW35"
-			(at 171.45 165.0999 90)
+			(at 176.53 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 171.45 167.6399 90)
+		(property "Value" "SWR6C5"
+			(at 176.53 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3224,7 +3224,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW35")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -3241,21 +3241,21 @@
 		(fields_autoplaced yes)
 		(uuid "1152211d-abc4-4a2a-8346-805c24ffe06c")
 		(property "Reference" "SW16"
-			(at 139.7 82.5499 90)
+			(at 144.78 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 139.7 85.0899 90)
+		(property "Value" "SWR3C4"
+			(at 144.78 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3300,7 +3300,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW16")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -3317,21 +3317,21 @@
 		(fields_autoplaced yes)
 		(uuid "14861d02-fa00-43f4-80c3-348f733a310b")
 		(property "Reference" "D11"
-			(at 80.01 66.0401 90)
+			(at 85.09 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 80.01 63.5001 90)
+			(at 85.09 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -3394,7 +3394,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D11")
+					(reference "DR2C2")
 					(unit 1)
 				)
 			)
@@ -3411,21 +3411,21 @@
 		(fields_autoplaced yes)
 		(uuid "162012a3-286c-4199-bc9e-f1b5e42e1a69")
 		(property "Reference" "SW34"
-			(at 139.7 165.0999 90)
+			(at 144.78 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 139.7 167.6399 90)
+		(property "Value" "SWR6C4"
+			(at 144.78 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3470,7 +3470,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW34")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -3487,21 +3487,21 @@
 		(fields_autoplaced yes)
 		(uuid "1c473c1d-3d14-4b9f-9219-49c24c66befc")
 		(property "Reference" "SW9"
-			(at 107.95 54.6099 90)
+			(at 113.03 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 107.95 57.1499 90)
+		(property "Value" "SWR2C3"
+			(at 113.03 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3546,7 +3546,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW9")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -3563,21 +3563,21 @@
 		(fields_autoplaced yes)
 		(uuid "22986d60-b9bd-418c-81c0-fa7bf3f709b0")
 		(property "Reference" "D30"
-			(at 46.99 149.8601 90)
+			(at 52.07 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 46.99 147.3201 90)
+			(at 52.07 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -3640,7 +3640,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D30")
+					(reference "DR5C1")
 					(unit 1)
 				)
 			)
@@ -3657,21 +3657,21 @@
 		(fields_autoplaced yes)
 		(uuid "22a6d68f-cd12-474b-8373-3754a578a1b1")
 		(property "Reference" "SW22"
-			(at 139.7 110.4899 90)
+			(at 144.78 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 139.7 113.0299 90)
+		(property "Value" "SWR4C4"
+			(at 144.78 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3716,7 +3716,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW22")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -3733,21 +3733,21 @@
 		(fields_autoplaced yes)
 		(uuid "27d930b3-0b8d-414a-86ab-3811380b8e15")
 		(property "Reference" "SW20"
-			(at 76.2 110.4899 90)
+			(at 81.28 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 76.2 113.0299 90)
+		(property "Value" "SWR4C2"
+			(at 81.28 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3792,7 +3792,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW20")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -3809,21 +3809,21 @@
 		(fields_autoplaced yes)
 		(uuid "29e7c829-281b-4fe0-9be5-8c5ffeed01f4")
 		(property "Reference" "D1"
-			(at 207.01 38.1001 90)
+			(at 212.09 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 207.01 35.5601 90)
+			(at 212.09 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -3886,7 +3886,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D1")
+					(reference "DR1C6")
 					(unit 1)
 				)
 			)
@@ -3903,21 +3903,21 @@
 		(fields_autoplaced yes)
 		(uuid "2b4862e8-013d-4bad-a49e-91af59bbfdab")
 		(property "Reference" "SW5"
-			(at 171.45 26.6699 90)
+			(at 176.53 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 171.45 29.2099 90)
+		(property "Value" "SWR1C5"
+			(at 176.53 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -3979,21 +3979,21 @@
 		(fields_autoplaced yes)
 		(uuid "30dbdc29-d43c-4b71-8932-4b57c02e4f45")
 		(property "Reference" "D9"
-			(at 143.51 66.0401 90)
+			(at 148.59 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 63.5001 90)
+			(at 148.59 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -4056,7 +4056,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D9")
+					(reference "DR2C4")
 					(unit 1)
 				)
 			)
@@ -4073,21 +4073,21 @@
 		(fields_autoplaced yes)
 		(uuid "32237a46-2d4d-4eec-83e8-ed7e1c2325d1")
 		(property "Reference" "SW30"
-			(at 203.2 138.4299 90)
+			(at 208.28 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 203.2 140.9699 90)
+		(property "Value" "SWR5C6"
+			(at 208.28 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4132,7 +4132,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW30")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -4149,21 +4149,21 @@
 		(fields_autoplaced yes)
 		(uuid "32eea86e-f6a8-4738-ae25-3f6aa9450120")
 		(property "Reference" "SW21"
-			(at 107.95 110.4899 90)
+			(at 113.03 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 107.95 113.0299 90)
+		(property "Value" "SWR4C3"
+			(at 113.03 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4208,7 +4208,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW21")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -4225,21 +4225,21 @@
 		(fields_autoplaced yes)
 		(uuid "35a9aec2-d532-4b3e-a43d-931e2b42d231")
 		(property "Reference" "D28"
-			(at 111.76 149.8601 90)
+			(at 116.84 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 111.76 147.3201 90)
+			(at 116.84 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -4302,7 +4302,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D28")
+					(reference "DR5C3")
 					(unit 1)
 				)
 			)
@@ -4319,21 +4319,21 @@
 		(fields_autoplaced yes)
 		(uuid "36f727b3-c12d-4d07-9cfa-c3076becd131")
 		(property "Reference" "SW11"
-			(at 171.45 54.6099 90)
+			(at 176.53 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 171.45 57.1499 90)
+		(property "Value" "SWR2C5"
+			(at 176.53 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4378,7 +4378,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW11")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -4395,21 +4395,21 @@
 		(fields_autoplaced yes)
 		(uuid "3a5d53d3-1c9e-4c4a-a437-470a8add488b")
 		(property "Reference" "SW14"
-			(at 76.2 82.5499 90)
+			(at 81.28 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 76.2 85.0899 90)
+		(property "Value" "SWR3C2"
+			(at 81.28 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4454,7 +4454,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW14")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -4471,21 +4471,21 @@
 		(fields_autoplaced yes)
 		(uuid "3bc6fb4c-f392-4de3-a6d3-67468ef92062")
 		(property "Reference" "SW13"
-			(at 43.18 82.5499 90)
+			(at 48.26 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 43.18 85.0899 90)
+		(property "Value" "SWR3C1"
+			(at 48.26 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4530,7 +4530,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW13")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -4547,21 +4547,21 @@
 		(fields_autoplaced yes)
 		(uuid "3caf5411-8744-4239-acf3-a06ffdc1d2b7")
 		(property "Reference" "D18"
-			(at 143.51 121.9201 90)
+			(at 148.59 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 119.3801 90)
+			(at 148.59 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -4624,7 +4624,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D18")
+					(reference "DR4C4")
 					(unit 1)
 				)
 			)
@@ -4641,21 +4641,21 @@
 		(fields_autoplaced yes)
 		(uuid "4039ff78-e762-465f-b488-88f3ceab6a91")
 		(property "Reference" "D20"
-			(at 111.76 121.9201 90)
+			(at 116.84 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 111.76 119.3801 90)
+			(at 116.84 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -4718,7 +4718,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D20")
+					(reference "DR4C3")
 					(unit 1)
 				)
 			)
@@ -4735,21 +4735,21 @@
 		(fields_autoplaced yes)
 		(uuid "43a43b08-f96c-4dbd-874f-6ae25381f153")
 		(property "Reference" "SW19"
-			(at 43.18 110.4899 90)
+			(at 48.26 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 43.18 113.0299 90)
+		(property "Value" "SWR4C1"
+			(at 48.26 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4794,7 +4794,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW19")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -4811,21 +4811,21 @@
 		(fields_autoplaced yes)
 		(uuid "4d73b0dd-8a84-4e5a-b2b9-406b3bd7e575")
 		(property "Reference" "SW31"
-			(at 43.18 165.0999 90)
+			(at 48.26 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 43.18 167.6399 90)
+		(property "Value" "SWR6C1"
+			(at 48.26 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -4870,7 +4870,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW31")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -4887,21 +4887,21 @@
 		(fields_autoplaced yes)
 		(uuid "4ed8bba0-9edb-487c-99cc-d722604cec14")
 		(property "Reference" "D6"
-			(at 46.99 38.1001 90)
+			(at 52.07 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 46.99 35.5601 90)
+			(at 52.07 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -4964,7 +4964,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D6")
+					(reference "DR1C1")
 					(unit 1)
 				)
 			)
@@ -4981,21 +4981,21 @@
 		(fields_autoplaced yes)
 		(uuid "5cbbf4c5-8cef-4eda-9565-ba50715b1a85")
 		(property "Reference" "SW6"
-			(at 203.2 26.6699 90)
+			(at 208.28 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 203.2 29.2099 90)
+		(property "Value" "SWR1C6"
+			(at 208.28 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -5057,21 +5057,21 @@
 		(fields_autoplaced yes)
 		(uuid "5cdef0fd-8729-4942-82ef-cecdfbb870af")
 		(property "Reference" "SW32"
-			(at 76.2 165.0999 90)
+			(at 81.28 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 76.2 167.6399 90)
+		(property "Value" "SWR6C2"
+			(at 81.28 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -5116,7 +5116,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW32")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -5133,21 +5133,21 @@
 		(fields_autoplaced yes)
 		(uuid "63c668ef-6ac8-4efc-b34a-16c07b2bf312")
 		(property "Reference" "D5"
-			(at 80.01 38.1001 90)
+			(at 85.09 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 80.01 35.5601 90)
+			(at 85.09 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -5210,7 +5210,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D5")
+					(reference "DR1C2")
 					(unit 1)
 				)
 			)
@@ -5227,21 +5227,21 @@
 		(fields_autoplaced yes)
 		(uuid "6711ec14-92cc-40e5-82c7-f964d1ba1b21")
 		(property "Reference" "SW25"
-			(at 43.18 138.4299 90)
+			(at 48.26 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 43.18 140.9699 90)
+		(property "Value" "SWR5C1"
+			(at 48.26 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -5286,7 +5286,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW25")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -5303,21 +5303,21 @@
 		(fields_autoplaced yes)
 		(uuid "6bb18fca-d3aa-4709-983c-66877737c206")
 		(property "Reference" "D3"
-			(at 143.51 38.1001 90)
+			(at 148.59 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 35.5601 90)
+			(at 148.59 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -5380,7 +5380,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D3")
+					(reference "DR1C4")
 					(unit 1)
 				)
 			)
@@ -5397,21 +5397,21 @@
 		(fields_autoplaced yes)
 		(uuid "6ed2364c-450f-4050-bee9-9827905941cc")
 		(property "Reference" "D35"
-			(at 111.76 176.5301 90)
+			(at 116.84 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 111.76 173.9901 90)
+			(at 116.84 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -5474,7 +5474,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D35")
+					(reference "DR6C3")
 					(unit 1)
 				)
 			)
@@ -5491,21 +5491,21 @@
 		(fields_autoplaced yes)
 		(uuid "7aead8e0-d095-4b85-a205-aaa8107ce059")
 		(property "Reference" "D14"
-			(at 207.01 121.9201 90)
+			(at 212.09 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 207.01 119.3801 90)
+			(at 212.09 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -5568,7 +5568,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D14")
+					(reference "DR4C6")
 					(unit 1)
 				)
 			)
@@ -5585,21 +5585,21 @@
 		(fields_autoplaced yes)
 		(uuid "80cbc09e-b458-42b6-b847-1da218cef8d3")
 		(property "Reference" "D26"
-			(at 175.26 149.8601 90)
+			(at 180.34 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 147.3201 90)
+			(at 180.34 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -5662,7 +5662,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D26")
+					(reference "DR5C5")
 					(unit 1)
 				)
 			)
@@ -5679,21 +5679,21 @@
 		(fields_autoplaced yes)
 		(uuid "86163cc1-e069-464c-a60a-1b91cd62e9ab")
 		(property "Reference" "SW27"
-			(at 107.95 138.4299 90)
+			(at 113.03 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 107.95 140.9699 90)
+		(property "Value" "SWR5C3"
+			(at 113.03 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -5738,7 +5738,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW27")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -5755,21 +5755,21 @@
 		(fields_autoplaced yes)
 		(uuid "89e7bcb2-ed08-46a2-9522-39bef3ded4e8")
 		(property "Reference" "D22"
-			(at 80.01 121.9201 90)
+			(at 85.09 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 80.01 119.3801 90)
+			(at 85.09 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -5832,7 +5832,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D22")
+					(reference "DR4C2")
 					(unit 1)
 				)
 			)
@@ -5849,21 +5849,21 @@
 		(fields_autoplaced yes)
 		(uuid "8b88a466-bb15-45a2-83ab-0484e136a6c8")
 		(property "Reference" "SW17"
-			(at 171.45 82.5499 90)
+			(at 176.53 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 171.45 85.0899 90)
+		(property "Value" "SWR3C5"
+			(at 176.53 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -5908,7 +5908,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW17")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -5925,21 +5925,21 @@
 		(fields_autoplaced yes)
 		(uuid "8e527f6f-0d7a-4fc1-bae0-155317fd5b73")
 		(property "Reference" "D4"
-			(at 111.76 38.1001 90)
+			(at 116.84 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 111.76 35.5601 90)
+			(at 116.84 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6002,7 +6002,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D4")
+					(reference "DR1C3")
 					(unit 1)
 				)
 			)
@@ -6019,21 +6019,21 @@
 		(fields_autoplaced yes)
 		(uuid "94428e3a-434b-49d7-b000-7ebfd7a27886")
 		(property "Reference" "D24"
-			(at 46.99 121.9201 90)
+			(at 52.07 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 46.99 119.3801 90)
+			(at 52.07 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6096,7 +6096,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D24")
+					(reference "DR4C1")
 					(unit 1)
 				)
 			)
@@ -6190,7 +6190,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D31")
+					(reference "DR6C1")
 					(unit 1)
 				)
 			)
@@ -6207,21 +6207,21 @@
 		(fields_autoplaced yes)
 		(uuid "962a657d-688b-4614-971d-655d43e68c12")
 		(property "Reference" "SW36"
-			(at 203.2 165.0999 90)
+			(at 208.28 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 203.2 167.6399 90)
+		(property "Value" "SWR6C6"
+			(at 208.28 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -6283,21 +6283,21 @@
 		(fields_autoplaced yes)
 		(uuid "99b23afd-fafd-40d7-9c07-dc506dddde48")
 		(property "Reference" "D25"
-			(at 207.01 149.8601 90)
+			(at 212.09 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 207.01 147.3201 90)
+			(at 212.09 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6360,7 +6360,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D25")
+					(reference "DR5C6")
 					(unit 1)
 				)
 			)
@@ -6377,21 +6377,21 @@
 		(fields_autoplaced yes)
 		(uuid "9c615e3c-d513-40eb-8abd-2834b8294046")
 		(property "Reference" "SW23"
-			(at 171.45 110.4899 90)
+			(at 176.53 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 171.45 113.0299 90)
+		(property "Value" "SWR4C5"
+			(at 176.53 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -6436,7 +6436,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW23")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -6453,21 +6453,21 @@
 		(fields_autoplaced yes)
 		(uuid "9d4c1358-31ec-4d6a-94dc-4379e69ec903")
 		(property "Reference" "D8"
-			(at 175.26 66.0401 90)
+			(at 180.34 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 63.5001 90)
+			(at 180.34 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6530,7 +6530,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D8")
+					(reference "DR2C5")
 					(unit 1)
 				)
 			)
@@ -6547,21 +6547,21 @@
 		(fields_autoplaced yes)
 		(uuid "9dd3cc5a-5303-4807-b442-33f6e99bae8c")
 		(property "Reference" "D17"
-			(at 143.51 93.9801 90)
+			(at 148.59 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 91.4401 90)
+			(at 148.59 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6624,7 +6624,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D17")
+					(reference "DR3C4")
 					(unit 1)
 				)
 			)
@@ -6641,21 +6641,21 @@
 		(fields_autoplaced yes)
 		(uuid "a0ecc948-92dc-47db-90d4-e89ada9200b4")
 		(property "Reference" "D7"
-			(at 207.01 66.0401 90)
+			(at 212.09 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 207.01 63.5001 90)
+			(at 212.09 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6718,7 +6718,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D7")
+					(reference "DR2C6")
 					(unit 1)
 				)
 			)
@@ -6735,21 +6735,21 @@
 		(fields_autoplaced yes)
 		(uuid "a9f66aae-db4f-4003-97d1-0499d93644e3")
 		(property "Reference" "D32"
-			(at 207.01 176.5301 90)
+			(at 212.09 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 207.01 173.9901 90)
+			(at 212.09 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6812,7 +6812,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D32")
+					(reference "DR6C6")
 					(unit 1)
 				)
 			)
@@ -6829,21 +6829,21 @@
 		(fields_autoplaced yes)
 		(uuid "aebce28d-6590-4628-8bd4-2aac3e72c171")
 		(property "Reference" "SW33"
-			(at 107.95 165.0999 90)
+			(at 113.03 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 107.95 167.6399 90)
+		(property "Value" "SWR6C3"
+			(at 113.03 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -6888,7 +6888,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW33")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -6905,21 +6905,21 @@
 		(fields_autoplaced yes)
 		(uuid "b50a2d6e-eba4-4821-85cc-1fd60948aaef")
 		(property "Reference" "SW2"
-			(at 76.2 26.6699 90)
+			(at 81.28 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 76.2 29.2099 90)
+		(property "Value" "SWR1C2"
+			(at 81.28 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -6981,21 +6981,21 @@
 		(fields_autoplaced yes)
 		(uuid "bbf68855-4270-4e22-a67b-03aeedf07368")
 		(property "Reference" "D36"
-			(at 80.01 176.5301 90)
+			(at 85.09 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 80.01 173.9901 90)
+			(at 85.09 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7058,7 +7058,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D36")
+					(reference "DR6C2")
 					(unit 1)
 				)
 			)
@@ -7075,21 +7075,21 @@
 		(fields_autoplaced yes)
 		(uuid "be6a69f1-5f40-4048-a9a3-6bf5abeeb284")
 		(property "Reference" "D29"
-			(at 80.01 149.8601 90)
+			(at 85.09 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 80.01 147.3201 90)
+			(at 85.09 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7152,7 +7152,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D29")
+					(reference "DR5C2")
 					(unit 1)
 				)
 			)
@@ -7169,21 +7169,21 @@
 		(fields_autoplaced yes)
 		(uuid "c00a2e0f-bd6b-4243-8b66-896d0a547024")
 		(property "Reference" "D13"
-			(at 207.01 93.9801 90)
+			(at 212.09 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 207.01 91.4401 90)
+			(at 212.09 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7246,7 +7246,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D13")
+					(reference "DR3C6")
 					(unit 1)
 				)
 			)
@@ -7263,21 +7263,21 @@
 		(fields_autoplaced yes)
 		(uuid "c26a7999-585a-4bef-a34b-3b367b1e1f0d")
 		(property "Reference" "SW18"
-			(at 203.2 82.5499 90)
+			(at 208.28 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 203.2 85.0899 90)
+		(property "Value" "SWR3C6"
+			(at 208.28 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -7322,7 +7322,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW18")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -7339,21 +7339,21 @@
 		(fields_autoplaced yes)
 		(uuid "c284d91b-27b2-44fa-af5f-82fbf8133f34")
 		(property "Reference" "SW28"
-			(at 139.7 138.4299 90)
+			(at 144.78 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 139.7 140.9699 90)
+		(property "Value" "SWR5C4"
+			(at 144.78 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -7398,7 +7398,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW28")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -7415,21 +7415,21 @@
 		(fields_autoplaced yes)
 		(uuid "c4469100-5cff-48c7-a7a9-c1fe00357d10")
 		(property "Reference" "D16"
-			(at 175.26 121.9201 90)
+			(at 180.34 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 119.3801 90)
+			(at 180.34 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7492,7 +7492,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D16")
+					(reference "DR4C5")
 					(unit 1)
 				)
 			)
@@ -7509,21 +7509,21 @@
 		(fields_autoplaced yes)
 		(uuid "c8aad096-551e-451d-8d9b-36e3befdd26e")
 		(property "Reference" "D2"
-			(at 175.26 38.1001 90)
+			(at 180.34 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 35.5601 90)
+			(at 180.34 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7586,7 +7586,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D2")
+					(reference "DR1C5")
 					(unit 1)
 				)
 			)
@@ -7603,21 +7603,21 @@
 		(fields_autoplaced yes)
 		(uuid "cbaabb19-6010-44b6-87be-5e209797417d")
 		(property "Reference" "D34"
-			(at 143.51 176.5301 90)
+			(at 148.59 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 173.9901 90)
+			(at 148.59 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7680,7 +7680,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D34")
+					(reference "DR6C4")
 					(unit 1)
 				)
 			)
@@ -7697,21 +7697,21 @@
 		(fields_autoplaced yes)
 		(uuid "cbfa7a47-400d-4f47-bcab-b007d0e1fff5")
 		(property "Reference" "D33"
-			(at 175.26 176.5301 90)
+			(at 180.34 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 173.9901 90)
+			(at 180.34 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7774,7 +7774,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D33")
+					(reference "DR6C5")
 					(unit 1)
 				)
 			)
@@ -7791,21 +7791,21 @@
 		(fields_autoplaced yes)
 		(uuid "cc1dd38d-1df0-4038-be2f-b2783f4a0581")
 		(property "Reference" "SW3"
-			(at 107.95 26.6699 90)
+			(at 113.03 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 107.95 29.2099 90)
+		(property "Value" "SWR1C3"
+			(at 113.03 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -7867,21 +7867,21 @@
 		(fields_autoplaced yes)
 		(uuid "d10a17a4-d20b-4ac5-9a60-81b536fb24fd")
 		(property "Reference" "D12"
-			(at 46.99 66.0401 90)
+			(at 52.07 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 46.99 63.5001 90)
+			(at 52.07 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -7944,7 +7944,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D12")
+					(reference "DR2C1")
 					(unit 1)
 				)
 			)
@@ -7961,21 +7961,21 @@
 		(fields_autoplaced yes)
 		(uuid "d1133aed-3a30-43a7-ba26-dfb3bca09ab3")
 		(property "Reference" "D23"
-			(at 46.99 93.9801 90)
+			(at 52.07 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 46.99 91.4401 90)
+			(at 52.07 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -8038,7 +8038,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D23")
+					(reference "DR3C1")
 					(unit 1)
 				)
 			)
@@ -8055,21 +8055,21 @@
 		(fields_autoplaced yes)
 		(uuid "d3f99884-c9e3-4faf-a719-82da9de2175c")
 		(property "Reference" "SW24"
-			(at 203.2 110.4899 90)
+			(at 208.28 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 203.2 113.0299 90)
+		(property "Value" "SWR4C6"
+			(at 208.28 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8114,7 +8114,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW24")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -8131,21 +8131,21 @@
 		(fields_autoplaced yes)
 		(uuid "db867043-3194-4370-a2a9-86f2d6a3fbd6")
 		(property "Reference" "SW4"
-			(at 139.7 26.6699 90)
+			(at 144.78 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 139.7 29.2099 90)
+		(property "Value" "SWR1C4"
+			(at 144.78 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8207,21 +8207,21 @@
 		(fields_autoplaced yes)
 		(uuid "dc224ea9-0725-4f1b-b2ca-7a8ade39ce18")
 		(property "Reference" "SW12"
-			(at 203.2 54.6099 90)
+			(at 208.28 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 203.2 57.1499 90)
+		(property "Value" "SWR2C6"
+			(at 208.28 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8266,7 +8266,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW12")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -8283,21 +8283,21 @@
 		(fields_autoplaced yes)
 		(uuid "dc51402d-7091-433f-bfe9-a80363eeb909")
 		(property "Reference" "D10"
-			(at 111.76 66.0401 90)
+			(at 116.84 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 111.76 63.5001 90)
+			(at 116.84 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -8360,7 +8360,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D10")
+					(reference "DR2C3")
 					(unit 1)
 				)
 			)
@@ -8377,21 +8377,21 @@
 		(fields_autoplaced yes)
 		(uuid "e044e5f5-b912-4e7f-8ea0-a0f682bddd66")
 		(property "Reference" "D19"
-			(at 111.76 93.9801 90)
+			(at 116.84 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 111.76 91.4401 90)
+			(at 116.84 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -8454,7 +8454,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D19")
+					(reference "DR3C3")
 					(unit 1)
 				)
 			)
@@ -8471,21 +8471,21 @@
 		(fields_autoplaced yes)
 		(uuid "ef14d818-bfe2-4730-bb88-007cd865b352")
 		(property "Reference" "SW7"
-			(at 43.18 54.6099 90)
+			(at 48.26 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 43.18 57.1499 90)
+		(property "Value" "SWR2C1"
+			(at 48.26 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8547,21 +8547,21 @@
 		(fields_autoplaced yes)
 		(uuid "f3d67d3d-b642-4b30-89ab-cdeae7c700da")
 		(property "Reference" "D27"
-			(at 143.51 149.8601 90)
+			(at 148.59 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 147.3201 90)
+			(at 148.59 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -8624,7 +8624,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "D27")
+					(reference "DR5C4")
 					(unit 1)
 				)
 			)
@@ -8641,21 +8641,21 @@
 		(fields_autoplaced yes)
 		(uuid "f411bcdd-98ec-4d1a-88d0-ed8f7d5bec0b")
 		(property "Reference" "SW10"
-			(at 139.7 54.6099 90)
+			(at 144.78 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 139.7 57.1499 90)
+		(property "Value" "SWR2C4"
+			(at 144.78 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8700,7 +8700,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW10")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -8717,21 +8717,21 @@
 		(fields_autoplaced yes)
 		(uuid "f8963baa-9bf8-438c-ad85-61ecb3d6c7e7")
 		(property "Reference" "SW1"
-			(at 43.18 26.6699 90)
+			(at 48.26 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 43.18 29.2099 90)
+		(property "Value" "SWR1C1"
+			(at 48.26 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8793,21 +8793,21 @@
 		(fields_autoplaced yes)
 		(uuid "f8f9b623-eb0a-4000-ae57-7b90ffbe79e1")
 		(property "Reference" "SW29"
-			(at 171.45 138.4299 90)
+			(at 176.53 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_TOUCHE"
-			(at 171.45 140.9699 90)
+		(property "Value" "SWR5C5"
+			(at 176.53 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -8852,7 +8852,7 @@
 			)
 			(project "Projet ELEC"
 				(path "/2d0c4a09-24e5-4892-bf2e-0a851a14e0ff/9df1f6e8-5be4-4edb-ae43-88bbbafc6ef7"
-					(reference "SW29")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
